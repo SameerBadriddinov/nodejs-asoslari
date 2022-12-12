@@ -5,7 +5,8 @@ const server = http.createServer((request, response) => {
 	// response - javob
 	console.log(request.url)
 
-	response.write('<h1>Hello world</h1>')
+	response.write('<h1>Hello world 3</h1>')
+	response.write('<h1>Hello world 1</h1>')
 	response.end()
 })
 
